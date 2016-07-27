@@ -4,8 +4,8 @@ describe('facebook-helper', () => {
   let facebookHelper = null;
 
   before((done) => {
-    let userId = "";
-    let token = "";
+    let userId = "754362197950399";
+    let token = "EAACEdEose0cBAPvND7oGlv3BpGlqDWEf2ZAWeYBwKIwMgl97UluEEcbCSPz6KoR3r8sUz7Mo8GXuwfS0QnoOEf32n1flmy7Lz3PRE1owNb46UFavfAzCRaQBm4C4nFYG0mSopjE7gTdmhDOIyMBMODSlZB9nEnIxJrZAV6VuwZDZD";
     facebookHelper = new FacebookHelper({userId, token});
     console.log(facebookHelper);
     done();
